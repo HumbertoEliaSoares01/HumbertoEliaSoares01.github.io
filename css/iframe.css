@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+section#documentoAnexo { 
+	background-color: white; 
+	padding: 10px 0px; margin: 0px; 
+	margin-top: -20px; 
+}
+section#documentoAnexo h1{ 
+	font-family: Times New Roman; 
+	font-size: 32px; 
+	margin-left: 20px; }
+section#documentoAnexo p{ 
+	font-family: Times New Roman; 
+	font-size: 20px; 
+	text-align: justify; text-indent: 10px; 
+	margin-left: 10px; margin-right: 10px;
+}
