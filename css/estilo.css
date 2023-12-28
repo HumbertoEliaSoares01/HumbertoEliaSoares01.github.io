@@ -93,6 +93,9 @@ section#corpo-principal img {
 	padding: 10px; 
 	width: 95%;
 }
+section#corpo-principal img:hover { 
+	transform: scale(1.2); transition-duration: .8s;  
+}
 section#corpo-principal img#foto-princioal { 
 	margin-left: 10px; margin-right: 10px; 
 	width: 50%; height: 50%
@@ -102,16 +105,12 @@ section#corpo-principal img#foto-princioal:hover {
 	opacity: .8;
 }
 section#corpo-principal iframe#iframeAnexo { 
-	width: 330px; height: 380px; margin: auto; 
-}
-section#corpo-principal img:hover { 
-	transform: scale(1.2); transition-duration: .8s;  
-}
-section#corpo-principal iframe#iframeAnexo{
-	width: 50%;  
+	position: relative; display: block;
+	width: 50%; height: 340px; margin: 30px auto auto auto; 
 }
 section#corpo-principal img#foto-iframe { 
-	width: 40%; height: 40%; margin-left: 20px; 
+	width: 35%; height: 35%; margin: auto auto auto 20px; 
+	top: 0px; float: left; display: block;
 }
 section#corpo-principal ul{ margin-left: -5px; }	
 section#corpo-principal ul li { text-align: center; }	
@@ -121,7 +120,10 @@ text-align: center; transform: scale(1.4); transition-duration: .8s;
 section#corpo-principal ul { 
 	margin-left: -5px; 
 }
-
+ul#lista-de-videos{
+	clear: both; 
+	float: top; 
+}
 /********************************************************************/
 /***********************************		Corpo Lateral		*****/
 /********************************************************************/
