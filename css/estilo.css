@@ -22,7 +22,7 @@ header#cabecalho {
 	background-color: var(--cor1);
 	background-image: linear-gradient(to bottom,#ffffff, var(--cor0),var(--cor1), var(--cor2), #000000);
 	margin: -10px 0px 0px 0px; 
-	height: 100px;
+	height: 90px;
 	padding: 60px 10px 0px 0px;
 	/*	
 		background: url("../imagens/coruja aquarela.jpg")
@@ -87,7 +87,12 @@ section#corpo-principal a {
 	font-size: 32px; 
 	text-align: center; 
 }
-section#corpo-principal img { padding: 10px; }
+section#corpo-principal img { 
+	display: block;
+	margin: auto;
+	padding: 10px; 
+	width: 95%;
+}
 section#corpo-principal img#foto-princioal { 
 	margin-left: 10px; margin-right: 10px; 
 	width: 50%; height: 50%
