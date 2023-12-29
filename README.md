@@ -1,5 +1,4 @@
 # HumbertoEscultor
-
 Site Humberto Escultor
 
 branch      filial
@@ -10,6 +9,7 @@ push        empurrar
 pull        puxar
 git         idiota
 hub         eixo
+
 row	        linha
 script	    roteiro
 section	    seção
