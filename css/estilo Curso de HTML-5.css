@@ -1,0 +1,94 @@
+h1 { text-align: center; font-size: 32pt; }
+h2 {font-size: 24pt;}
+body img:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+body{
+    background-color: #cecece;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+    color: #4e6494;
+}
+header {
+    border-bottom: 1px solid white; 
+    background-color: #5581e0; color: white;
+    margin-top: -30px; margin-left: -10px; margin-right: -10px;
+    height: 70px;
+}
+ul li {
+    border: 2px solid #fff; padding: 2%;
+    box-shadow: 4px 4px 8px #000;
+    margin: 20px 20px 20px -20px;
+} 
+
+footer {border-top: 1px solid black;}
+footer p {text-align: center; font-size: 20pt;}
+a {margin: 10px;}
+div#introdução { border-bottom: 1px solid black;}
+div#módulo-1 { border-bottom: 1px solid black;}
+div#módulo-2 { border-bottom: 1px solid black;}
+div#módulo-3 { border-bottom: 1px solid black;}
+div#módulo-4 { border-bottom: 1px solid black;}
+div#módulo-5 { border-bottom: 1px solid black;}
+div#materialDeApoio {
+    height: 100px;  
+    background-color: rgb(236, 210, 152);
+    text-align: center;
+    border: 1px solid white;
+    margin: 10px;
+    padding-top: 40px;
+}
+div#exercício002 {
+    height: 120PX;
+    background-color: #8b7474;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 20px;
+    text-align: center;
+}
+div#exercício003 {
+    height: 120PX;
+    background-color: #748b7b;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 20px;
+    text-align: center;
+}
+div#exercício007 { 
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #EBEBEB;
+}
+#iconArqchive{width: 30%; height: 30%; margin-left: 50px;}
+#faviconCC{width: 30%; height: 30%; margin-left: 50px;}.menu ul li {
+    background-color: #aaa; 
+    color: #fff;
+    float: left;    /* Dispões os ítens horizontalmente */
+    width: 180px;
+    height: 40px;
+    display: inline-block;  /* Tira as bolinhas */
+    text-align: center;
+    line-height: 40px;  /* centraliza verticalmente "line-height = height = 40px" */ 
+    font-size: 25px;
+}
+
+.menu ul li:hover {background-color: #4f5153;}
+.menu{ 
+    display: block; opacity: .8;
+}         
+.menu ul {
+    padding: 0px;    /* tira o avanço e alinha */
+    position: absolute; top: -2px; right: 44px; /* posição absoluta no site */
+}
+.menu ul ul {
+    display: none;
+    position: relative; left: 0px;
+}
+.menu ul li:hover > ul{display: block; float: left;}
+.menu ul ul ul {margin-left: 200px; top: -40px; */}
