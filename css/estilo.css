@@ -1,5 +1,9 @@
 
 @charset "UTF-8";
+.video-lista-principal{
+	margin: auto;
+	width: 95%;
+}
 :root{
     --cor0: #dddddd;
     --cor1: #BDBDBD;
