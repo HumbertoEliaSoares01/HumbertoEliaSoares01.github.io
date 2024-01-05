@@ -12,7 +12,7 @@
 	--cor4: #b0b1b2;
 	--cor5: #606060;
 }
- body {
+body {
     background-color: var(--cor0);
 }
 div#interface { 
@@ -220,14 +220,17 @@ nav.menu ul ul ul{
 	top: -120px; left: -422px;
 }
 nav.menu a{ color: white; }
-
+nav.menu a:hover{ 
+	color: #000000; 
+	font-weight: bolder;
+}
 /************************************************************/
 /**************************************		Rodapé		*****/
 /************************************************************/
 	
 footer#rodape {	
 	clear: both; 
-	float: top; 
+	float: top; x
 	border-top: 1px solid var(--cor5);	
 	font-family: Times New Roman; 
 	opacity: .8;  
