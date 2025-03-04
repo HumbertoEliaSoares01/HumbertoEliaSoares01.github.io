@@ -1,0 +1,244 @@
+
+@charset "UTF-8";
+.video-lista-principal{
+	margin: auto;
+	width: 95%;
+}
+:root{
+    --cor0: #dddddd;
+    --cor1: #BDBDBD;
+    --cor2: #646566;
+	--cor3: #626263;
+	--cor4: #b0b1b2;
+	--cor5: #606060;
+}
+ body {
+    background-color: var(--cor0);
+}
+div#interface { 
+	height: 100%; width: 100%; 
+	background-color: var(--cor0) 
+}
+header#cabecalho {
+	opacity: .8;
+	font-family: Arial Rounded MT Bold;
+	border-bottom: 1px solid #000000;  
+	background-color: var(--cor1);
+	background-image: linear-gradient(to bottom,#ffffff, var(--cor0),var(--cor1), var(--cor2), #000000);
+	margin: -10px 0px 0px 0px; 
+	height: 90px;
+	padding: 60px 10px 0px 0px;
+	/*	
+		background: url("../imagens/coruja aquarela.jpg")
+	*/	
+}
+header#cabecalho h1{
+	text-align: left; text-shadow: 6px 6px 10px rgba(0,0,0,.6);
+	margin-bottom: 0px; margin-top: 0px; margin-left: 40px;
+	font-size: 72px; color: #F2F2F2;		 
+	font-family: 'Finger Paint', Arial Rounded MT Bold; 
+	/***************		
+		Utilizando fontes púbçicas do site do Google 
+		= "www.google.com/fonts" 
+		utilizando a fonte "Finger Paint" 
+		no <h1> do cabeçalho " Humberto Escultor "
+		font-family: 'Open Sans', sans-serif;
+		font-family: 'Finger Paint', cursive;
+		*** fonte anterior 
+	***************************************************
+		font-family: Arial Rounded MT Bold, 
+		sans-serif; font-size: 56pt; 
+	***************************************************/
+}
+
+/********************************************************/
+/**************************		Corpo Principal		*****/
+/********************************************************/
+
+section#corpo-principal { 
+	background-color:var(--cor0); 
+	width: 61%; height: 100%; 
+	float: left; display: block; 
+	margin-left: -10px; 
+	margin-right: -19px; 
+	margin-top: -10px; 
+	padding: 0px;  
+	border-right: 0.5px black solid; 
+	background-color:var(--cor0); 
+}
+section#corpo-principal h1 { 
+	font-family: Times New Roman, sans-serif; 
+	font-size: 56px; 
+	text-align: center; 
+}
+section#corpo-principal h2 { 
+	font-family: Times New Roman, sans-serif; 
+	font-size: 42px; 
+	text-align: center; 
+}
+section#corpo-principal h3 { 
+	font-family: Times New Roman, sans-serif; 
+	font-size: 32px; 
+	text-align: center; 
+}
+section#corpo-principal p { 
+	font-family: Times New Roman, sans-serif; 
+	font-size: 24px; text-align: justify;
+	text-indent: 50px;	
+}	
+section#corpo-principal a {	
+	font-family: Times New Roman, sans-serif; 
+	font-size: 32px; 
+	text-align: center; 
+}
+section#corpo-principal img { 
+	display: block;
+	margin: auto;
+	padding: 10px; 
+	width: 95%;
+}
+section#corpo-principal img:hover { 
+	transform: scale(1.2); transition-duration: .8s;  
+}
+section#corpo-principal img#foto-princioal { 
+	margin-left: 10px; margin-right: 10px; 
+	width: 50%; height: 50%
+}	
+section#corpo-principal img#foto-princioal:hover {
+	transform: scale(1.2); transition-duration: .8s; 
+	opacity: .8;
+}
+section#corpo-principal iframe#iframeAnexo { 
+	position: relative; display: block;
+	width: 50%; height: 340px; margin: 30px auto auto auto; 
+}
+section#corpo-principal img#foto-iframe { 
+	width: 35%; height: 35%; margin: auto auto auto 20px; 
+	top: 0px; float: left; display: block;
+}
+section#corpo-principal ul{ margin-left: -5px; }	
+section#corpo-principal ul li { text-align: center; }	
+section#corpo-principal ul li:hover { 
+text-align: center; transform: scale(1.4); transition-duration: .8s;
+}
+section#corpo-principal ul { 
+	margin-left: -5px; 
+}
+ul#lista-de-videos{
+	clear: both; 
+	float: top; 
+}
+/********************************************************************/
+/***********************************		Corpo Lateral		*****/
+/********************************************************************/
+section#corpo-lateral { 
+	padding: 0px; 
+	margin-right: -10px;  margin-left: -10px; 
+	width: 39%; height: 100%; 
+	float: right; display: block; 
+	font-family: Times New Roman; 
+	font-size:22px; 
+	background-color: var(--cor0)
+}
+section#corpo-lateral h1 { 
+	font-size: 28px; 
+	text-align: center; 
+	padding-right: 40px; 
+}
+section#corpo-lateral p { 
+	font-size: 28px; 
+	text-align: justify; 
+	padding-right: 40px; 
+	text-indent: 20px;
+}
+section#corpo-lateral img{
+	width: 40%;
+	margin: 2%;
+}
+section#corpo-lateral img:hover { 
+	transform: scale(1.2); 
+	transition-duration: .8s; 
+	opacity: .8;	
+}
+section#corpo-lateral a title {
+	font-size: 30px;
+} 
+
+
+/****************************************************/
+/*****************		Imagem com legenda		*****/
+/****************************************************/
+
+	figure.foto-legenda { position: relative; }
+	figure.foto-legenda img { width: 100%; height: 100%; }	
+	figure.foto-legenda:hover figcaption { opacity: 1; }
+	figure.foto-legenda figcaption {	
+	opacity: 0;
+	position: absolute; top: 0px; 
+	background-color: rgba(0,0,0,.2); color: white; 
+	width: 104%; height: 100%; 
+	padding: 10px; 
+	box-sizing: border-box;
+	transition: opacity 1s;
+	text-align: center; font-family: Times New Roman;
+}
+
+
+/************************************************************/
+/******************************			 menu			*****/
+/************************************************************/
+nav.menu{ 
+	display: block; 
+	font-family: Times New Roman; 
+	color: white; 
+}
+nav.menu ul { 
+	position: absolute; 
+	top: -10px; 
+	right: 10px; /* posição absoluta no site */
+}
+nav.menu ul li{	
+	background-color: var(--cor4); 
+	display: inline-block; float: left; 
+	width: 200px; height: 40px;
+	text-align: center; 
+	line-height: 40px; 
+	font-size: 28px;
+}
+nav.menu ul ul li{	font-size: 22px; }
+nav.menu ul li:hover{ background-color: var(--cor3) }
+nav.menu ul ul{	
+	display: none; 
+	position: relative; 
+	right: 60px; left: -40px; top: 0px; 
+}
+nav.menu ul li:hover > ul { 
+	display: block; float: left; 
+}
+nav.menu ul ul ul{ 
+	margin-left: 200px; 
+	top: -120px; left: -422px;
+}
+nav.menu a{ color: white; }
+
+/************************************************************/
+/**************************************		Rodapé		*****/
+/************************************************************/
+	
+footer#rodape {	
+	clear: both; 
+	float: top; 
+	border-top: 1px solid var(--cor5);	
+	font-family: Times New Roman; 
+	opacity: .8;  
+	text-align: center;
+	background-color: var(--cor0)
+	margin: 0px -10px -10px -10px; 
+	padding-bottom: 20px;
+
+}
+footer#rodape h2 { font-size: 22px; }	
+footer#rodape ul { font-size: 18px; }
+footer#rodape h2 { text-align: center; }	
+footer#rodape h2:hover { transform: scale(1.8); transition-duration: .8s; }
+	
